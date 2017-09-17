@@ -1,0 +1,161 @@
+html {
+	font-size: 18px;
+	font-family: Helvetica;
+	color: white;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex {
+	display: flex;
+}
+
+.row {
+	flex-direction: row;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.main {
+	width: 960px;
+}
+
+/*Header*/
+
+header {
+	background-color: black;
+	align-self: stretch;
+	justify-content: center;
+}
+
+.company {
+	align-items: center
+}
+
+.company img {
+	height: 1.5rem;
+	width: auto;
+	margin-left: 0.5rem;
+}
+
+.company span {
+	margin: 0.66rem 0 0.66rem 1rem;
+}
+
+/* Main-Banner */
+
+.mainbanner {
+	background-image: url(../imgs/moto.jpeg);
+	height: 25rem;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+}
+
+.maintext {
+	margin-top: 4.5rem;
+} 
+
+.textcontainer {
+	background-color: black;
+	padding: 2rem 3rem 2rem 3rem;
+	align-self: center;
+	width: 20rem;
+}
+
+.textcontainer h1 {
+	font-weight: bold;
+	font-size: 2rem;
+	margin: 0.25rem 0;
+}
+
+.textcontainer h4 {
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+/* Navigation */
+
+.mainnav {
+	background-color: firebrick;
+	padding: 0.75rem 0;
+	align-self: stretch;
+	justify-content: center;
+	margin-bottom: 3rem;
+}
+
+.mainnav ul {
+	justify-content: space-between;
+}
+
+/* Featured Products */
+
+.featured {
+	justify-content: space-between;
+	margin-bottom: 3rem;
+}
+
+.article {
+	width: 30%;
+	border: 4px solid black;
+	align-items: center;
+	justify-content: center;
+}
+
+.featimg {
+	height: 13rem;
+	align-items: center;
+}
+
+.article img {
+	max-height: 9rem;
+	margin: 2rem;
+	align-self: center;
+	max-width: 9rem;
+}
+
+.description {
+	padding: 0.5rem 0;
+	align-self: stretch;
+	background-color: black;
+	text-align: center;
+}
+
+/* Infos */
+
+.infos {
+	justify-content: space-between;
+	margin-bottom: 4rem;
+}
+
+.info {
+	width: 35%;
+}
+
+.title {
+	background-color: black;
+	padding: 1rem 2rem;
+}
+
+.location {
+	padding-top: 0.25rem;
+	color: black;
+} 
+
+/* Footer */
+
+footer {
+	background-color: black;
+	align-self: stretch;
+	align-items: center;
+	justify-content: center;
+	height: 5rem;
+}
+
