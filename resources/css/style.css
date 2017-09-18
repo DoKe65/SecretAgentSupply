@@ -191,6 +191,63 @@ footer {
 	.info {
 		width: 35%;
 	}
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
 	
+	.mainbanner {
+	height: 15rem;
+}
+
+.maintext {
+	margin-top: 10rem;
+} 
+
+.textcontainer {
+	padding: 1rem 2rem 1rem 2rem;
+	align-self: stretch;
+	width: 100%;
+	height: 2rem;
+}
+
+.textcontainer h1 {
+	font-size: 1rem;
+}
+
+.textcontainer h4 {
+	font-size: 0.77rem;
+}
+	
+	.featured.main,
+	.infos.main {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.mainnav ul {
+		display: none;
+	}
+	
+	.menu {
+		display: block;
+	}
+
+	.article {
+		width: 90%;
+	}
+	
+	.feattwo, .featthree {
+		display: none;
+	}
+	
+	.info {
+		width: 90%;
+		margin-top: 0.5rem;
+	}
+	
+	.copyright {
+		text-align: center;
+	}
 }
 
