@@ -26,10 +26,14 @@ body {
 	width: 960px;
 }
 
+header, .textcontainer, 
+.description, .title, footer {
+	background-color: black;
+}
+
 /*Header*/
 
 header {
-	background-color: black;
 	align-self: stretch;
 	justify-content: center;
 }
@@ -64,7 +68,6 @@ header {
 } 
 
 .textcontainer {
-	background-color: black;
 	padding: 2rem 3rem 2rem 3rem;
 	align-self: center;
 	width: 20rem;
@@ -124,7 +127,6 @@ header {
 .description {
 	padding: 0.5rem 0;
 	align-self: stretch;
-	background-color: black;
 	text-align: center;
 }
 
@@ -140,7 +142,6 @@ header {
 }
 
 .title {
-	background-color: black;
 	padding: 1rem 2rem;
 }
 
@@ -152,10 +153,44 @@ header {
 /* Footer */
 
 footer {
-	background-color: black;
 	align-self: stretch;
 	align-items: center;
 	justify-content: center;
 	height: 5rem;
+}
+
+/* Media Queries */
+
+.menu {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+	
+	.featured.main,
+	.infos.main {
+		width: 100%;
+	}
+	
+	.mainnav ul {
+		display: none;
+	}
+	
+	.menu {
+		display: block;
+	}
+
+	.article {
+		width: 47%;
+	}
+	
+	.featthree {
+		display: none;
+	}
+	
+	.info {
+		width: 35%;
+	}
+	
 }
 
